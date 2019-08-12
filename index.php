@@ -20,7 +20,7 @@ echo 'a+b='."$c".'<br>';
 #первый тип вывода 
 
 echo 'a+b='.($a+$b).'<br>';
-#второй тип
+#второй тип вывода информации
 echo "hello world ";
 echo $var.'<br>';
 echo strftime(' %d - %Y - %A');
