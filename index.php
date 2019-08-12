@@ -23,8 +23,11 @@ echo 'a+b='.($a+$b).'<br>';
 #второй тип вывода информации
 echo "hello world ";
 echo $var.'<br>';
-echo strftime(' %d - %Y - %A');
-
+echo strftime(' %d - %Y - %A').'<br>';
+# вывод тип переменой
+echo gettype($b).'<br>';
+echo gettype($var).'<br>';
+echo gettype($var3).'<br>';
 ?>
 
 </body>
