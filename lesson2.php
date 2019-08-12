@@ -8,12 +8,20 @@
     <title>Домашнее задание</title>
 </head>
 <body>
+<form action="lesson2.php" method="post">
+    Имя:  <input type="text" name="name" /><br />
+    Cколько тебе лет: <input type="text" name="age" /><br />
+    <br>
+    <input type="submit" name="submit" value="Отправь меня!" />
+    <br>
+    <br>
+    <hr>
+</form>
 <?php
-#1 задание
-$name = 'ivan';
-$age = '31';
-echo 'меня зовут: '.$name.'<br>';
-echo 'мне '.$age.' лет'.'<br>';
+$name = $_POST['name'];
+$age = $_POST['age'];
+echo 'Меня зовут: '.$name.'<br>';
+echo 'Мне '.$age.' <b>лет</b>'.'<br>';
 
 ?>
 </body>

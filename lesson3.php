@@ -8,21 +8,16 @@
     <title>Домашнее задание</title>
 </head>
 <body>
-<form action="lesson2.php" method="post">
-    Имя:  <input type="text" name="name" /><br />
-    Cколько тебе лет: <input type="text" name="age" /><br />
-    <br>
-    <input type="submit" name="submit" value="Отправь меня!" />
-    <br>
-    <br>
-    <hr>
-</form>
-<?php
-$name = $_POST['name'];
-$age = $_POST['age'];
-echo 'Меня зовут: '.$name.'<br>';
-echo 'Мне '.$age.' <b>лет</b>'.'<br>';
 
+<?php
+#константы
+const NAME = 'Иван';
+echo 'Меня зовут: '.NAME.'<br>';
+echo gettype($NAME).'<br>';
+
+const NAME = '1234';
+echo 'Меня зовут: '.NAME.'<br>';
+echo gettype($NAME).'<br>';
 ?>
 </body>
 </html>
