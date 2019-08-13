@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa622772-be23-4d37-856a-036bc7d630be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +66,9 @@
       <updated>1565448259568</updated>
       <workItem from="1565448264536" duration="1777000" />
       <workItem from="1565608903492" duration="7493000" />
+      <workItem from="1565707673298" duration="1185000" />
+      <workItem from="1565708878809" duration="202000" />
+      <workItem from="1565709097876" duration="735000" />
     </task>
     <servers />
   </component>
@@ -80,7 +80,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
