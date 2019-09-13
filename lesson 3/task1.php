@@ -11,15 +11,7 @@
 
 <?php
 #массив
-$arr = array(
-   'name' => 'ivan' ,
-   'sname' =>'shiryaev',
-   'age' => '31'
-);
-echo '<pre>';
-print_r ($arr);
-echo '</pre>';
-print_r ($arr);
+php_uname([$mode]);
 ?>
 
 </body>
